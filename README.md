@@ -4,9 +4,13 @@ A modern Employee Management System built with React & Tailwind CSS to help busi
 
 # 🚀 Features
 ✅ Add, Edit & Delete Employees – Manage employee records effortlessly
+
 ✅ Real-time Search & Filters – Find employees instantly
+
 ✅ Dark Mode Support – Switch between light & dark themes
+
 ✅ Dashboard with Analytics – View workforce stats & charts
+
 ✅ Local Storage Integration – Persist employee data without a backend
 
 
@@ -39,6 +43,7 @@ npm install
 Start the development server:
 
 npm run dev
+
 The project will now be running at http://localhost:5173 🚀
 
 🎨 Customization
