@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -8,7 +8,6 @@ import EmployeeList from "./components/EmployeeList";
 export default function App() {
   return (
     <ThemeProvider>
-      <Router>
         <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition">
           <Navbar />
           <Routes>
@@ -17,7 +16,6 @@ export default function App() {
             <Route path="/employees" element={<EmployeeList />} />
           </Routes>
         </div>
-      </Router>
     </ThemeProvider>
   );
 }

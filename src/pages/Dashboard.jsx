@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { Pie, Bar } from "react-chartjs-2";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement } from "chart.js";
+import { Link } from "react-router-dom"
+import { useEffect, useState } from "react"
+import { Pie, Bar } from "react-chartjs-2"
+import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement } from "chart.js"
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
 
